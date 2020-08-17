@@ -5,8 +5,13 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
+    <h1>Team Name: <%= @team_info[:name.to_s] %></h1>
+    <h2>Coach: <%= @team_info[:coach.to_s] %></h2>
+    <h2>Point Guard: <%= @team_info[:pg.to_s] %></h2>
+    <h2>Shooting Guard: <%= @team_info[:sg.to_s] %></h2>
+    <h2>Small Forward: <%= @team_info[:sf.to_s] %></h2>
+    <h2>Power Forward: <%= @team_info[:pf.to_s] %></h2>
+    <h2>Center: <%= @team_info[:c.to_s] %></h2>
 
  </body>
 </html>
